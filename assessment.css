@@ -10,6 +10,16 @@ thead {
   font-weight: bold; color: orange;
 }
 
+tbody tr:nth-child(even) {
+  background: gray;
+}
+
+tbody tr:nth-child(odd), tfoot {
+  background: teal;
+}
+
+
+
 ul > li {
   list-style-type: square;
 }
@@ -42,4 +52,8 @@ a[href*="bears"]  + ul {
 
 #checkbox-grid > li{
   list-style-type: none;
+}
+
+ol > li:first-child {
+  font-weight: bold;
 }
